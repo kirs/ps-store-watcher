@@ -1,3 +1,4 @@
+// Parses the price from "€19,95" to 19.95 as a float
 function parsePrice(str) {
   let re = str.match(/(\d+),(\d+)/)
 
